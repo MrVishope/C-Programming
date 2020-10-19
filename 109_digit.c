@@ -3,16 +3,20 @@
 #include<stdio.h>
 
 void main(){
-	int num,i,con,d=100,sum=0;
+	int num,d,sum=0;
 	printf("Enter Three digit number:");
 	scanf("%d",&num);
-	for(i=0; i<3; i++){
-		con = num/d;
-		num -= (con*d);
-		sum += con;
-		d = d/10;
+
+		d = num%10;
+		sum = sum + d;
+		num = num/10;
+
+		d = num%10;
+		sum = sum + d;
+		num = num/10;
 		
-	}
+		sum = sum + num;
+		
 	printf("\nThe sum is:%d",sum);
-	getch();
+	
 }

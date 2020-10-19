@@ -5,7 +5,7 @@
 void main(){
 	int quant;
 	float price,tprice;
-	printf("Enter the number of quantity:");
+	printf("Enter the number of uantity:");
 	scanf("%d",&quant);
 	printf("Enter the amount of price you have:");
 	scanf("%f",&price);
