@@ -14,7 +14,7 @@ void main(){
                     if(year%400 == 0) printf("\n%d",year);
                     else;
                 }
-                else printf("\n%d",year);
+                else printf("\t%d",year);
         }
         else;
 

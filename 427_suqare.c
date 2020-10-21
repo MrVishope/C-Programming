@@ -7,7 +7,7 @@ void main(){
             continue;
         }
         else{
-            printf("\n%d = %d",i,i*i);
+            printf("%d = %d\t",i,i*i);
         }
 
     }

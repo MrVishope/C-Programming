@@ -3,7 +3,7 @@
 void main(){
     int i,flag=0,sum=0;
     for(i=100; i<200; i++){
-        if(i%7==0 || i%5==0){
+        if(i%7==0 && i%5!=0){
             sum+=i;
             flag++;
         }

@@ -20,13 +20,13 @@ void main(){
             res = (n1*n1*n1)+(n2*n2*n2);
             break;
         case '/':
-            res = n1*n2;
+            res = n1/n2;
             break; 
             case '%':
-            res = n1*n2;
+            res = n1%n2;
             break;
         default:
-            printf("\nInvalid choice :choose a,b,c or d");
+            printf("\nInvalid choice :choose + - * / %");
 
     }
     printf("\nThe result is %d",res);
